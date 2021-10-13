@@ -47,8 +47,8 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
+          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px"}}>
+            <div className="slider-tab" style={{width:"49.1%", marginLeft: "auto", marginRight: "auto"}}>
               <span
                 className="iconify slider-iconfiy"
                 data-icon="emojione:red-circle"
@@ -72,6 +72,8 @@ class ProjectDetailsModal extends Component {
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
+              style={{width: "300px", height: "400px", marginLeft: "auto", marginRight: "auto"}}
+
             >
               {img}
             </AwesomeSlider>
