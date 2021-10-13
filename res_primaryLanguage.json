@@ -1,0 +1,116 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Joshua Colston. I'm work with the latest frameworks such as React and Pandas, Flask. Currently, I'm a Full Stack Developer with some experience in Data Science as well. I am enrolled at the University of Central Florida Majoring in Computer Science with a graduation date of Fall 2022",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      },
+      "images": ["images/profilePic.JPG"]
+    },
+    "projects": [
+      {
+        "title": "Knights Table",
+        "startDate": "2021",
+        "description": "iOS Application that lets groups come together and decide on a place to eat using an anonymous voting-based system by using map visualization and restaurant metadata.",
+        "images": [
+          "images/portfolio/knightstable/kt1.jpg",
+          "images/portfolio/knightstable/kt2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "Portfolio App",
+        "startDate": "2020",
+        "description": "iOS Application that lets UCF Students manage their resumes on the go for job fairs by uploading their resume and linking their websites appropriately.",
+        "images": [
+          "images/portfolio/portfolio/port2.png",
+          "images/portfolio/portfolio/port1.jpeg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Google Firebase"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "StraCon Services Group LLC",
+        "title": "Engineering Technician I",
+        "years": "10.2020 - present",
+        "mainTech": [
+          "Python",
+          "Pandas",
+          "Flask",
+          "PySpark",
+          "Data Visualization",
+          "Plotly",
+          "AGILE Workflow"
+        ],
+        "technologies": [
+          "REST API",
+          "PostgreSQL",
+          "JavaScript",
+          "Bootstrap",
+          "Python",
+          "Pandas",
+          "React",
+          "C",
+          "HTML5",
+          "Git"
+        ]
+      },
+      {
+        "company": "ID Tech Camps",
+        "title": "Online Private Instructor",
+        "years": "06.2020 - 10.2020",
+        "mainTech": [
+          "JavaScript",
+          "Python",
+          "Java"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "Java",
+          "C",
+          "Lua"
+        ]
+      }
+    ]
+  }
